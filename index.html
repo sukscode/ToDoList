@@ -2,33 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Fredoka+One"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
     />
+
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container-1"></div>
-    <h1>To-Do-App</h1>
-    <h4>What do you need to do?</h4>
-    <div id="to-do" class="container-2">
+    <div class="container-1">
+      <h1>To-Do App</h1>
+      <h3>What do you need to do?</h3>
+    </div>
+    <div class="container-2">
       <div class="input-group mb-3">
         <input
+          id="to-do"
           type="text"
           class="form-control"
-          placeholder="Add"
-          aria-label="Add"
+          placeholder=" "
+          aria-label="Recipient's username"
           aria-describedby="button-addon2"
         />
-        <div onclick="submitToDo()" class="input-group-append">
+        <div HTMLDivElement onclick="submitToDo()" class="input-group-append">
           <button
             class="btn btn-outline-secondary"
             type="button"
