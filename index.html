@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Fredoka+One"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container-1"></div>
+    <h1>To-Do-App</h1>
+    <h4>What do you need to do?</h4>
+    <div id="to-do" class="container-2">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Add"
+          aria-label="Add"
+          aria-describedby="button-addon2"
+        />
+        <div onclick="submitToDo()" class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="button-addon2"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container-3"></div>
+    <scrpit src="script.js"></scrpit>
+  </body>
+</html>
